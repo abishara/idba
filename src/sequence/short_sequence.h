@@ -99,7 +99,7 @@ public:
         return size() < seq.size();
     }
 
-    static const uint32_t kMaxShortSequence = 162;
+    static const uint32_t kMaxShortSequence = 512;
     static const uint32_t kNumBytes = (kMaxShortSequence + 3) / 4 + 2;
 
 private:
